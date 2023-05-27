@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    display: block;
+}
+
+body{
+    width: 100%;
+    color: red;
+    background: blanchedalmond;
+    font-family: sans-serif;
+}
+
+
+header{
+    background: none;
+    padding-top: 50px;
+    margin-bottom: 5px;
+}
+
+.img-placed img{
+    width: 600px;
+}
+
+.container{
+    width: 600px;
+    margin: auto;
+    padding: auto;
+    height: 600px;
+    display: block;
+   border-radius: 8px;
+   background:  #19376D;
+    box-shadow: rgb(50, 50, 93,0.25);
+}
+
+input[type=text]{
+    width: 87%;
+    margin: auto;
+    display: block;
+    font-size: 1rem;
+    background: none;
+    line-height: 1.5;
+    padding: 12px;
+    border-radius: 6px;
+    color: #fff;
+    border: 1px solid white;
+    margin-top: 20px;
+}
+
+input[type=text] :focus{
+    border-color: red;
+}
+
+#select-field{
+    display: flex;
+    justify-content: space-between;
+}
+
+#fromCurrencyName{
+    margin-top: 0;
+    font-size: 16px;
+    color: aqua;
+    font-weight: 600;
+    display: inline-block;
+    margin: 15px 40px 7.5px;
+}
+
+#fromCurrency{
+    width: 40%;
+}
+
+::placeholder{
+    font-size: 1rem;
+    color: white;
+}
+
+select{
+    margin: auto;
+    display: block;
+    font-size: 1rem;
+    padding: 12px;
+    background: none;
+    border-radius: 6px;
+    color: white;
+    border: 1px solid ;
+}
+
+select:focus{
+   border-color: blue;
+}
+
+.primary-btn{
+    display: block;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    min-width: 0px;
+    width: 87%;
+    cursor: pointer;
+    margin: auto;
+    outline-offset: 4px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    transition-property: ;
+}

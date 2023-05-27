@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: blanchedalmond;
+}
+
+form{
+    width: 40%;
+    margin-top: 100px;
+    background-color: #fff;
+    padding: 40px 60px;
+    border-radius: 15px;
+    min-width: 300px;
+    height: 660px;
+    margin-left: 30%;
+}
+
+form h1{
+    color: #19376D;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    font-size: 35px;
+}
+
+.email{
+    text-align: center;
+    font-size: 20px;
+    color: #19376D;
+}
+
+form .social{
+    margin: 20px;
+    display:flex ;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+form .social p{
+    padding: 10px;
+    margin-left: 10px;
+    border: 2px solid #19376D;
+    border-radius: 100%;
+    text-align: center;
+    cursor: pointer;
+}
+
+form p .email{
+    text-align: center;
+}
+
+form .inputs{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+form .inputs input[type="email"],input[type="password"]{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    border: 2px solid rgb(177, 175, 175);
+    margin-bottom: 10px;
+    outline: none;
+    color: grey;
+    font-size: 20px;
+}
+
+form label{
+    font-size: 20px;
+    margin: 5px;
+    color: #19376D;
+    font-family: sans-serif;
+}
+
+
+form .inscription{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color:#878787 ;
+    margin: 30px;
+}
+
+form .inscription a{
+    text-decoration: none;
+}
+
+form p span{
+    color: red;
+}
+
+form button{
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #19376D;
+    outline: none;
+    cursor: pointer;
+    margin-left: 40%;
+}

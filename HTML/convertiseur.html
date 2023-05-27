@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="fonts/icomoon/style.css"/>
+
+    <link rel="stylesheet" href="./CSS/owl.carousel.min.css"/>
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./../CSS/bootstrap.min.css"/>
+
+    <!-- Style -->
+    <link rel="stylesheet" href="./../CSS/convertisseur.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <title>Convertisseur</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+    <header></header>
+    <div class="container">
+
+        <div class="img-placed">
+            <img src="./../Images/pexels5.webp" alt="">
+        </div>
+        <form action="">
+            <input type="text" id="amount" placeholder="Entrez votre revenus?">
+
+            <label id="fromCurrencyName"></label>
+
+            <div id="select-field">
+                <select name="" id="toCurrency" onChange ="showCurency">
+                    <option value="BTC">Bitcoin (BTC)</option>
+                    <option value="ETH">Ethereum (ETH)</option>
+                    <option value="BNB">Binance (BNB)</option>
+                    <option value="USDC">USD coin(USDC)</option>
+                    <option value="LTC">Litecoin (lTC)</option>
+                    <option value="TRX">Tron (TRX)</option>
+                    <option value="AVAX">Bitcoin (BTC)</option>
+                    <option value="BTC">Avalanche (AVAX)</option>
+                </select>
+                
+                <select name="" id="toCurrency" onChange ="showCurency">
+                    <option value="BTC">Bitcoin (BTC)</option>
+                    <option value="ETH">Ethereum (ETH)</option>
+                    <option value="BNB">Binance (BNB)</option>
+                    <option value="USDC">USD coin(USDC)</option>
+                    <option value="LTC">Litecoin (lTC)</option>
+                    <option value="TRX">Tron (TRX)</option>
+                    <option value="AVAX">Bitcoin (BTC)</option>
+                    <option value="BTC">Avalanche (AVAX)</option>
+                </select>
+            </div>
+            <br>
+
+            <button type="button" id="convert" class="primary-btn">Convert</button>
+        </form>
+        <p id="result"></p>
+    </div>
+
+
+
+    <script src="./../JS/bootstrap.bundle.js"></script>
+    <script src="./../JS/jquery-3.3.1.min.js"></script>
+    <script src="./../JS/popper.min.js"></script>
+    <script src="./../JS/bootstrap.min.js"></script>
+    <script src="./../JS/jquery.sticky.js"></script>
+    <script src="./../JS/convertisseur.js"></script>
+</body>
+</html>

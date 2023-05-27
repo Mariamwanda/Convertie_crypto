@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: blanchedalmond;
+}
+
+
+form{
+    width: 40%;
+    margin-top: 100px;
+    background-color: #fff;
+    padding: 40px 60px;
+    border-radius: 15px;
+    min-width: 300px;
+    height: 690px;
+    margin-left: 30%;
+}
+
+form h1{
+    color: #19376D;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    font-size: 35px;
+}
+
+form .social{
+    margin: 20px;
+    display:flex ;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+form .social p{
+    padding: 10px;
+    margin-left: 10px;
+    border: 2px solid #19376D;
+    border-radius: 100%;
+    text-align: center;
+    cursor: pointer;
+}
+
+form .inputs{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+form .inputs input[type="email"],input[type="text"],input[type="number"],input[type="sexe"],input[type="service"]{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    border: 2px solid rgb(177, 175, 175);
+    margin-bottom: 10px;
+    outline: none;
+    color: grey;
+    font-size: 20px;
+}
+
+form label{
+    font-size: 25px;
+    margin: 5px;
+    color: #19376D;
+    font-family: sans-serif;
+}
+
+select{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    border: 2px solid rgb(177, 175, 175);
+    margin-bottom: 10px;
+    outline: none;
+    color: grey;
+    font-size: 20px;
+}
+
+form button{
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: #19376D;
+    outline: none;
+    cursor: pointer;
+    margin-left: 40%;
+}
+
+form button a{
+    text-decoration: none;
+    color: #ffffff;
+}

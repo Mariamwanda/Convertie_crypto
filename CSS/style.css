@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: blanchedalmond;
+}
+
+header{
+    background-color: #19376D;
+    width: 100%;
+    height: 6vh;
+    opacity: 0.8;
+  
+}
+
+header ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+header ul{
+    display: flex;
+    margin-left: 45%;
+    justify-content: space-between;
+    list-style: none;
+    padding-top: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    
+}
+
+.Banniere{
+    width: 100%;
+    height: 94vh;
+    background-color: blue;
+    background: url(./../Images/pexels2.webp);
+    background-size: cover;
+    background-position: 100% 100%;
+}
+
+.element p{
+    border: 2px solid beige;
+    padding: 20px;
+    width: 80%;
+    font-size: 30px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.element p span{
+    color: #19376D;
+}
+
+.Banniere .element{
+    align-items: center;
+    margin-left: 30%;
+    padding-top: 30vh;
+}
+
+.element button a{
+    text-decoration: none;
+    color: white;
+}
+
+.element button {
+    padding: 15px;
+    font-size: 20px;
+    background-color: #19376D;
+    border: none;
+    margin-top: 20px;
+    margin: 15px;
+    border-radius: 8px;
+   
+}
