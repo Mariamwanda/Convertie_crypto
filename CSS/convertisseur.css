@@ -30,7 +30,7 @@ header{
     width: 600px;
     margin: auto;
     padding: auto;
-    height: 600px;
+    height: 630px;
     display: block;
    border-radius: 8px;
    background:  #19376D;
@@ -107,5 +107,18 @@ select:focus{
     font-weight: 600;
     text-align: center;
     text-decoration: none;
-    transition-property: ;
+    transition-property: background-color,border-color;
+    transition-duration: 0.3s;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 8px;
+    color: #19376D;
+    background-color: white;
+    border: 2px solid;
+}
+
+.primary-btn:hover{
+    background-color: #19376D;
+    border: 2px solid white;
+    color: white;
 }

@@ -93,6 +93,11 @@ form p span{
     color: red;
 }
 
+form button a{
+    text-decoration: none;
+    color: white;
+}
+
 form button{
     padding: 15px 25px;
     border: none;
